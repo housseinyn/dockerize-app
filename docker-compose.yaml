@@ -1,0 +1,7 @@
+version: "3"
+services:
+  node-app:
+    container_name: express-node-container
+    build: .
+    ports:
+      - "3000:3000"
